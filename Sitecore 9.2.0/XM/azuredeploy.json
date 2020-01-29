@@ -214,15 +214,15 @@
 
     "siHostingPlanName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-si-hp')]"
+      "defaultValue": "ah-group-stg-appserviceplan-plan-cmd-01"
     },
     "cmHostingPlanName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-cm-hp')]"
+      "defaultValue": "ah-group-stg-appserviceplan-plan-cmd-01"
     },
     "cdHostingPlanName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-cd-hp')]"
+      "defaultValue": "ah-group-stg-appserviceplan-plan-cmd-01"
     },
 
     "siWebAppName": {
