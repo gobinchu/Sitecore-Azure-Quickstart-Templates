@@ -93,19 +93,19 @@
 
     "coreSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-core-db')]"
+      "defaultValue": "AhGroupStagingSitecore_core"
     },
     "masterSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-master-db')]"
+      "defaultValue": "AhGroupStagingSitecore_master"
     },
     "webSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-web-db')]"
+      "defaultValue": "AhGroupStagingSitecore_web1"
     },
     "formsSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-forms-db')]"
+      "defaultValue": "AhGroupStagingSitecore_forms"
     },
 
     "deployAzureSearch": {
@@ -137,11 +137,11 @@
     },
     "applicationInsightsName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-ai')]"
+      "defaultValue": "ah-group-stg-appinsights-sitecore"
     },
     "applicationInsightsLocation": {
       "type": "string",
-      "defaultValue": "East US"
+      "defaultValue": "West Europe"
     },
     "applicationInsightsPricePlan": {
       "type": "string",
@@ -180,15 +180,15 @@
     "siWebAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-si')]"
+      "defaultValue": "ah-group-stg-appservice-sitecore-si-01"
     },
     "cmWebAppName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-cm')]"
+      "defaultValue": "ah-group-stg-appservice-sitecore-cm-01"
     },
     "cdWebAppName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-cd')]"
+      "defaultValue": "ah-group-stg-appservice-sitecore-cd-01"
     },
     "skuMap": {
       "type": "secureObject",
