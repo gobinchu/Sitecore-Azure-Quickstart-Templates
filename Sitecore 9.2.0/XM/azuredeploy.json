@@ -196,11 +196,11 @@
     },
     "applicationInsightsName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-ai')]"
+      "defaultValue": "ah-group-stg-appinsights-sitecore"
     },
     "applicationInsightsLocation": {
       "type": "string",
-      "defaultValue": "East US"
+      "defaultValue": "West Europe"
     },
     "storeSitecoreCountersInApplicationInsights": {
       "type": "bool",
