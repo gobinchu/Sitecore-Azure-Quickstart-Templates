@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "variables": {
@@ -97,11 +97,11 @@
 
     "coreSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "AhGroupStagingSitecore_core"
+      "defaultValue": "[concat(parameters('deploymentId'), '-core-db')]"
     },
     "masterSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "AhGroupStagingSitecore_master"
+      "defaultValue": "[concat(parameters('deploymentId'), '-master-db')]"
     },
     "securitySqlDatabaseName": {
       "type": "string",
@@ -109,11 +109,11 @@
     },
     "webSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "AhGroupStagingSitecore_web1"
+      "defaultValue": "[concat(parameters('deploymentId'), '-web-db')]"
     },
     "formsSqlDatabaseName": {
       "type": "string",
-      "defaultValue": "AhGroupStagingSitecore_forms"
+      "defaultValue": "[concat(parameters('deploymentId'), '-forms-db')]"
     },
 
     "coreSqlDatabaseUserName": {
@@ -196,11 +196,11 @@
     },
     "applicationInsightsName": {
       "type": "string",
-      "defaultValue": "cas-sitecore-accor-appinsights-sitecore"
+      "defaultValue": "[concat(parameters('deploymentId'), '-ai')]"
     },
     "applicationInsightsLocation": {
       "type": "string",
-      "defaultValue": "West Europe"
+      "defaultValue": "East US"
     },
     "storeSitecoreCountersInApplicationInsights": {
       "type": "bool",
