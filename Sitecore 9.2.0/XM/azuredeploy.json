@@ -196,7 +196,7 @@
     },
     "applicationInsightsName": {
       "type": "string",
-      "defaultValue": "ah-group-stg-appinsights-sitecore"
+      "defaultValue": "cas-sitecore-accor-appinsights-sitecore"
     },
     "applicationInsightsLocation": {
       "type": "string",
@@ -228,15 +228,15 @@
     "siWebAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "ah-group-stg-appservice-sitecore-si-01"
+      "defaultValue": "cas-sitecore-accor-appservice-sitecore-si-01"
     },
     "cmWebAppName": {
       "type": "string",
-      "defaultValue": "ah-group-stg-appservice-sitecore-cm-01"
+      "defaultValue": "cas-sitecore-accor-appservice-sitecore-cm-01"
     },
     "cdWebAppName": {
       "type": "string",
-      "defaultValue": "ah-group-stg-appservice-sitecore-cd-01"
+      "defaultValue": "cas-sitecore-accor-appservice-sitecore-cd-01"
     },
 
     "siMsDeployPackageUrl": {
