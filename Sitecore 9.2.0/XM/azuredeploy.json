@@ -228,15 +228,15 @@
     "siWebAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "cas-sitecore-accor-appservice-sitecore-si-01"
+      "defaultValue": "ah-group-stg-appservice-sitecore-cd-01"
     },
     "cmWebAppName": {
       "type": "string",
-      "defaultValue": "cas-sitecore-accor-appservice-sitecore-cm-01"
+      "defaultValue": "ah-group-stg-appservice-sitecore-cm-01"
     },
     "cdWebAppName": {
       "type": "string",
-      "defaultValue": "cas-sitecore-accor-appservice-sitecore-cd-01"
+      "defaultValue": "ah-group-stg-appservice-sitecore-si-01"
     },
 
     "siMsDeployPackageUrl": {
